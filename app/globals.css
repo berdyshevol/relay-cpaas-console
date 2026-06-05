@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(59, 130, 246, 0.06), transparent),
+    radial-gradient(900px 500px at -10% 110%, rgba(168, 85, 247, 0.06), transparent),
+    #0a0b0f;
+  color: #e6e8ee;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Slim, subtle scrollbars to match the console aesthetic */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2e3a transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #2a2e3a;
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #353a48;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-in {
+  animation: fadeInUp 0.18s ease-out;
+}

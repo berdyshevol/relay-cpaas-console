@@ -1,0 +1,11 @@
+{
+  "total": 10,
+  "passing": 10,
+  "spec_files": [
+    "tests/01-conversations.spec.ts",
+    "tests/02-composer.spec.ts",
+    "tests/03-inbound-simulator.spec.ts",
+    "tests/04-ai-byok.spec.ts",
+    "tests/05-twilio-webhook.spec.ts"
+  ]
+}
