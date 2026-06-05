@@ -1,5 +1,10 @@
 # Relay — AI-first CPaaS messaging console
 
+## Live demo
+
+https://relay-cpaas-console.vercel.app
+
+
 A unified communications console for **SMS, Voice, and RCS** with a built-in
 **AI agent**, a **real Twilio integration**, and a **safe simulator mode** that
 makes the whole thing run with **zero configuration**. Built with Next.js 15
